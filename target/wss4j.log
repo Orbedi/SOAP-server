@@ -1,0 +1,276 @@
+0    [main] DEBUG org.apache.cxf.common.logging.LogUtils  - Using org.apache.cxf.common.logging.Log4jLogger for logging.
+276  [main] DEBUG org.apache.cxf.resource.DefaultResourceManager  - resolving resource <org.apache.cxf.transport.http.asyncclient.AsyncHTTPConduitFactory/bus> type <interface org.apache.cxf.Bus>
+277  [main] DEBUG org.apache.cxf.resource.DefaultResourceManager  - resolving resource <null> type <interface org.apache.cxf.Bus>
+396  [main] INFO  org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean  - Creating Service {http://youtube.crossfit.com/}youtubeSOAPImplService from class com.crossfit.youtube.Youtube
+672  [main] DEBUG org.apache.cxf.jaxb.JAXBDataBinding  - Created JAXBContext "jar:file:/C:/Users/orlan/.m2/repository/com/sun/xml/bind/jaxb-impl/2.1.13/jaxb-impl-2.1.13.jar!/com/sun/xml/bind/v2/runtime/JAXBContextImpl.class Build-Id: 2.1.13
+Classes known to this context:
+  [B
+  boolean
+  byte
+  char
+  com.crossfit.youtube.ChangeVideo
+  com.crossfit.youtube.ChangeVideoResponse
+  com.sun.xml.bind.api.CompositeStructure
+  double
+  float
+  int
+  java.awt.Image
+  java.io.File
+  java.lang.Boolean
+  java.lang.Byte
+  java.lang.Character
+  java.lang.Class
+  java.lang.Double
+  java.lang.Float
+  java.lang.Integer
+  java.lang.Long
+  java.lang.Object
+  java.lang.Short
+  java.lang.String
+  java.lang.Void
+  java.math.BigDecimal
+  java.math.BigInteger
+  java.net.URI
+  java.net.URL
+  java.util.Calendar
+  java.util.Date
+  java.util.GregorianCalendar
+  java.util.UUID
+  javax.activation.DataHandler
+  javax.xml.bind.JAXBElement
+  javax.xml.datatype.Duration
+  javax.xml.datatype.XMLGregorianCalendar
+  javax.xml.namespace.QName
+  javax.xml.transform.Source
+  long
+  short
+  void
+" with classes [class com.crossfit.youtube.ChangeVideo, class com.crossfit.youtube.ChangeVideoResponse, class com.crossfit.youtube.ObjectFactory].
+867  [main] DEBUG org.apache.cxf.resource.DefaultResourceManager  - resolving resource <org.apache.cxf.wsdl11.WSDLManagerImpl/bus> type <interface org.apache.cxf.Bus>
+867  [main] DEBUG org.apache.cxf.resource.DefaultResourceManager  - resolving resource <null> type <interface org.apache.cxf.Bus>
+1086 [main] DEBUG org.apache.cxf.transport.http_jetty.JettyHTTPServerEngineFactory  - Creating Jetty HTTP Server Engine for port 8080.
+1091 [main] DEBUG org.apache.cxf.transport.http_jetty.JettyHTTPServerEngine  - Configured port 8080 for "http".
+1091 [main] INFO  org.apache.cxf.endpoint.ServerImpl  - Setting the server's publish address to be http://localhost:8080/ss/youtubeSOAP
+1103 [main] DEBUG org.apache.cxf.jaxws.handler.AnnotationHandlerChainBuilder  - building handler chain
+1103 [main] DEBUG org.apache.cxf.jaxws.handler.AnnotationHandlerChainBuilder  - Checking for HandlerChain annotation on com.crossfit.youtube.youtubeSOAPImpl
+1103 [main] DEBUG org.apache.cxf.jaxws.handler.AnnotationHandlerChainBuilder  - Checking for HandlerChain annotation on com.crossfit.youtube.Youtube
+1103 [main] DEBUG org.apache.cxf.jaxws.handler.AnnotationHandlerChainBuilder  - Checking for HandlerChain annotation on java.lang.Object
+1103 [main] DEBUG org.apache.cxf.jaxws.handler.AnnotationHandlerChainBuilder  - no HandlerChain annotation on class com.crossfit.youtube.youtubeSOAPImpl
+1104 [main] DEBUG org.apache.cxf.endpoint.ServerImpl  - Server is starting.
+1105 [main] DEBUG org.apache.cxf.transport.http_jetty.JettyHTTPDestination  - registering incoming observer: org.apache.cxf.transport.ChainInitiationObserver@75437611
+1105 [main] DEBUG org.apache.cxf.transport.http_jetty.JettyHTTPDestination  - Activating receipt of incoming messages
+1111 [main] DEBUG org.eclipse.jetty.util.log  - Logging to org.slf4j.impl.Log4jLoggerAdapter(org.eclipse.jetty.util.log) via org.eclipse.jetty.util.log.Slf4jLog
+1137 [main] DEBUG org.eclipse.jetty.util.component.Container  - Container org.eclipse.jetty.server.Server@231f98ef + SelectChannelConnector@localhost:8080 as connector
+1141 [main] DEBUG org.eclipse.jetty.util.component.Container  - Container org.eclipse.jetty.server.Server@231f98ef + org.eclipse.jetty.server.handler.ContextHandlerCollection@359df09a as handler
+1141 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle  - starting org.eclipse.jetty.server.Server@231f98ef
+1142 [main] INFO  org.eclipse.jetty.server.Server  - jetty-8.1.14.v20131031
+1152 [main] DEBUG org.eclipse.jetty.util.component.Container  - Container org.eclipse.jetty.server.Server@231f98ef + qtp1896232624{8<=0<=0/254,-1} as threadpool
+1152 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle  - starting org.eclipse.jetty.server.handler.ContextHandlerCollection@359df09a
+1153 [main] DEBUG org.eclipse.jetty.server.handler.AbstractHandler  - starting org.eclipse.jetty.server.handler.ContextHandlerCollection@359df09a
+1153 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle  - STARTED org.eclipse.jetty.server.handler.ContextHandlerCollection@359df09a
+1153 [main] DEBUG org.eclipse.jetty.server.handler.AbstractHandler  - starting org.eclipse.jetty.server.Server@231f98ef
+1153 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle  - starting qtp1896232624{8<=0<=0/254,-1}
+1155 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle  - STARTED qtp1896232624{8<=4<=8/254,0}
+1155 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle  - starting SelectChannelConnector@localhost:8080
+1178 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle  - starting null/null
+1180 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle  - STARTED PooledBuffers [0/1024@6144,0/1024@16384,0/1024@-]/PooledBuffers [0/1024@6144,0/1024@32768,0/1024@-]
+1180 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle  - starting org.eclipse.jetty.server.nio.SelectChannelConnector$ConnectorSelectorManager@6e535154
+1368 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle  - STARTED org.eclipse.jetty.server.nio.SelectChannelConnector$ConnectorSelectorManager@6e535154
+1368 [qtp1896232624-14 Selector0] DEBUG org.eclipse.jetty.io.nio  - Starting Thread[qtp1896232624-14 Selector0,5,main] on org.eclipse.jetty.io.nio.SelectorManager$1@2e55be17
+1369 [main] INFO  org.eclipse.jetty.server.AbstractConnector  - Started SelectChannelConnector@localhost:8080
+1369 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle  - STARTED SelectChannelConnector@localhost:8080
+1369 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle  - STARTED org.eclipse.jetty.server.Server@231f98ef
+1374 [main] DEBUG org.eclipse.jetty.util.component.Container  - Container o.e.j.s.h.ContextHandler{/ss,null} + org.apache.cxf.transport.http_jetty.JettyHTTPHandler@4f49f6af as handler
+1374 [main] DEBUG org.eclipse.jetty.util.component.Container  - Container org.eclipse.jetty.server.handler.ContextHandlerCollection@359df09a + o.e.j.s.h.ContextHandler{/ss,null} as handler
+1375 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle  - starting o.e.j.s.h.ContextHandler{/ss,null}
+1387 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle  - starting org.apache.cxf.transport.http_jetty.JettyHTTPHandler@4f49f6af
+1387 [main] DEBUG org.eclipse.jetty.server.handler.AbstractHandler  - starting org.apache.cxf.transport.http_jetty.JettyHTTPHandler@4f49f6af
+1387 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle  - STARTED org.apache.cxf.transport.http_jetty.JettyHTTPHandler@4f49f6af
+1387 [main] DEBUG org.eclipse.jetty.server.handler.AbstractHandler  - starting o.e.j.s.h.ContextHandler{/ss,null}
+1387 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle  - STARTED o.e.j.s.h.ContextHandler{/ss,null}
+1388 [main] DEBUG org.apache.cxf.endpoint.ServerImpl  - register the server to serverRegistry 
+34458 [qtp1896232624-14 Selector0] DEBUG org.eclipse.jetty.io.nio  - created SCEP@4d6cabcd{l(/127.0.0.1:56084)<->r(/127.0.0.1:8080),s=0,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=0}-{AsyncHttpConnection@4282d8ab,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=0},r=0}
+34460 [qtp1896232624-16] DEBUG org.eclipse.jetty.http.HttpParser  - filled 520/520
+34474 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.eclipse.jetty.server.Server  - REQUEST /ss/youtubeSOAP on AsyncHttpConnection@4282d8ab,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=2,l=3,c=239},r=1
+34474 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.eclipse.jetty.server.handler.ContextHandler  - scope null||/ss/youtubeSOAP @ o.e.j.s.h.ContextHandler{/ss,null}
+34475 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.eclipse.jetty.server.handler.ContextHandler  - context=/ss||/youtubeSOAP @ o.e.j.s.h.ContextHandler{/ss,null}
+34509 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.transport.http.AbstractHTTPDestination  - Create a new message for processing
+34528 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.transport.http.Headers  - Request Headers: {Accept=[*/*], Cache-Control=[no-cache], connection=[keep-alive], Content-Length=[239], content-type=[text/xml; charset=UTF-8], Host=[localhost:8080], Pragma=[no-cache], SOAPAction=["http://crossfit.com/youtube/ChangeVideo"], User-Agent=[Apache CXF 2.7.18]}
+34546 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Adding interceptor org.apache.cxf.ws.policy.PolicyInInterceptor@7e7b4bf5 to phase receive
+34546 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Adding interceptor org.apache.cxf.interceptor.ServiceInvokerInterceptor@7052501e to phase invoke
+34546 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Adding interceptor org.apache.cxf.interceptor.OutgoingChainInterceptor@62d9fb36 to phase post-invoke
+34546 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Adding interceptor org.apache.cxf.interceptor.OneWayProcessorInterceptor@2ab824b1 to phase pre-logical
+34546 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Adding interceptor org.apache.cxf.jaxws.interceptors.WrapperClassInInterceptor@e38f6f0 to phase post-logical
+34546 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Adding interceptor org.apache.cxf.jaxws.interceptors.HolderInInterceptor@6c888589 to phase pre-invoke
+34546 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Adding interceptor org.apache.cxf.jaxws.interceptors.SwAInInterceptor@41a5c365 to phase pre-invoke
+34546 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Adding interceptor org.apache.cxf.frontend.WSDLGetInterceptor@2a53fa4c to phase read
+34546 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Adding interceptor org.apache.cxf.ws.mex.MEXInInterceptor@63150680 to phase pre-protocol
+34546 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Adding interceptor org.apache.cxf.interceptor.AttachmentInInterceptor@4b9973a6 to phase receive
+34546 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Adding interceptor org.apache.cxf.interceptor.StaxInInterceptor@24483f5b to phase post-stream
+34547 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Adding interceptor org.apache.cxf.binding.soap.interceptor.SoapActionInInterceptor@117c3004 to phase read
+34547 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Adding interceptor org.apache.cxf.wsdl.interceptors.DocLiteralInInterceptor@5a1615ad to phase unmarshal
+34547 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Adding interceptor org.apache.cxf.binding.soap.interceptor.SoapHeaderInterceptor@5a12590a to phase unmarshal
+34547 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Adding interceptor org.apache.cxf.binding.soap.interceptor.ReadHeadersInterceptor@3f4507f4 to phase read
+34547 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Adding interceptor org.apache.cxf.binding.soap.interceptor.StartBodyInterceptor@4f49fc08 to phase read
+34547 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Adding interceptor org.apache.cxf.binding.soap.interceptor.CheckFaultInterceptor@25183331 to phase post-protocol
+34547 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Adding interceptor org.apache.cxf.binding.soap.interceptor.MustUnderstandInterceptor@6d0af491 to phase pre-protocol
+34547 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Adding interceptor org.apache.cxf.javascript.JavascriptGetInterceptor@7ae72463 to phase read
+34547 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Adding interceptor org.apache.cxf.jaxb.attachment.JAXBAttachmentSchemaValidationHack@7a4e2e8b to phase post-protocol
+34548 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Adding interceptor org.apache.cxf.transport.https.CertConstraintsInterceptor@673826a8 to phase pre-stream
+34549 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Chain org.apache.cxf.phase.PhaseInterceptorChain@7088e24d was created. Current flow:
+  receive [PolicyInInterceptor, AttachmentInInterceptor]
+  pre-stream [CertConstraintsInterceptor]
+  post-stream [StaxInInterceptor]
+  read [WSDLGetInterceptor, ReadHeadersInterceptor, SoapActionInInterceptor, StartBodyInterceptor, JavascriptGetInterceptor]
+  pre-protocol [MEXInInterceptor, MustUnderstandInterceptor]
+  post-protocol [CheckFaultInterceptor, JAXBAttachmentSchemaValidationHack]
+  unmarshal [DocLiteralInInterceptor, SoapHeaderInterceptor]
+  pre-logical [OneWayProcessorInterceptor]
+  post-logical [WrapperClassInInterceptor]
+  pre-invoke [SwAInInterceptor, HolderInInterceptor]
+  invoke [ServiceInvokerInterceptor]
+  post-invoke [OutgoingChainInterceptor]
+
+34549 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Invoking handleMessage on interceptor org.apache.cxf.ws.policy.PolicyInInterceptor@7e7b4bf5
+34553 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Invoking handleMessage on interceptor org.apache.cxf.interceptor.AttachmentInInterceptor@4b9973a6
+34576 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Invoking handleMessage on interceptor org.apache.cxf.transport.https.CertConstraintsInterceptor@673826a8
+34576 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Invoking handleMessage on interceptor org.apache.cxf.interceptor.StaxInInterceptor@24483f5b
+34713 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Adding interceptor org.apache.cxf.interceptor.StaxInEndingInterceptor@14fd216f to phase pre-invoke
+34713 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Chain org.apache.cxf.phase.PhaseInterceptorChain@7088e24d was modified. Current flow:
+  receive [PolicyInInterceptor, AttachmentInInterceptor]
+  pre-stream [CertConstraintsInterceptor]
+  post-stream [StaxInInterceptor]
+  read [WSDLGetInterceptor, ReadHeadersInterceptor, SoapActionInInterceptor, StartBodyInterceptor, JavascriptGetInterceptor]
+  pre-protocol [MEXInInterceptor, MustUnderstandInterceptor]
+  post-protocol [CheckFaultInterceptor, JAXBAttachmentSchemaValidationHack]
+  unmarshal [DocLiteralInInterceptor, SoapHeaderInterceptor]
+  pre-logical [OneWayProcessorInterceptor]
+  post-logical [WrapperClassInInterceptor]
+  pre-invoke [StaxInEndingInterceptor, SwAInInterceptor, HolderInInterceptor]
+  invoke [ServiceInvokerInterceptor]
+  post-invoke [OutgoingChainInterceptor]
+
+34713 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Invoking handleMessage on interceptor org.apache.cxf.frontend.WSDLGetInterceptor@2a53fa4c
+34713 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Invoking handleMessage on interceptor org.apache.cxf.binding.soap.interceptor.ReadHeadersInterceptor@3f4507f4
+34740 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Invoking handleMessage on interceptor org.apache.cxf.binding.soap.interceptor.SoapActionInInterceptor@117c3004
+34740 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Invoking handleMessage on interceptor org.apache.cxf.binding.soap.interceptor.StartBodyInterceptor@4f49fc08
+34741 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Invoking handleMessage on interceptor org.apache.cxf.javascript.JavascriptGetInterceptor@7ae72463
+34741 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Invoking handleMessage on interceptor org.apache.cxf.ws.mex.MEXInInterceptor@63150680
+34741 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Invoking handleMessage on interceptor org.apache.cxf.binding.soap.interceptor.MustUnderstandInterceptor@6d0af491
+34742 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Invoking handleMessage on interceptor org.apache.cxf.binding.soap.interceptor.CheckFaultInterceptor@25183331
+34743 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Invoking handleMessage on interceptor org.apache.cxf.jaxb.attachment.JAXBAttachmentSchemaValidationHack@7a4e2e8b
+34743 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Invoking handleMessage on interceptor org.apache.cxf.wsdl.interceptors.DocLiteralInInterceptor@5a1615ad
+34772 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Invoking handleMessage on interceptor org.apache.cxf.binding.soap.interceptor.SoapHeaderInterceptor@5a12590a
+34772 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Invoking handleMessage on interceptor org.apache.cxf.interceptor.OneWayProcessorInterceptor@2ab824b1
+34773 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Invoking handleMessage on interceptor org.apache.cxf.jaxws.interceptors.WrapperClassInInterceptor@e38f6f0
+34781 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Invoking handleMessage on interceptor org.apache.cxf.interceptor.StaxInEndingInterceptor@14fd216f
+34781 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Invoking handleMessage on interceptor org.apache.cxf.jaxws.interceptors.SwAInInterceptor@41a5c365
+34783 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Invoking handleMessage on interceptor org.apache.cxf.jaxws.interceptors.HolderInInterceptor@6c888589
+34785 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Invoking handleMessage on interceptor org.apache.cxf.interceptor.ServiceInvokerInterceptor@7052501e
+34791 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Invoking handleMessage on interceptor org.apache.cxf.interceptor.OutgoingChainInterceptor@62d9fb36
+34793 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.interceptor.OutgoingChainInterceptor  - Interceptors contributed by bus: [org.apache.cxf.ws.policy.PolicyOutInterceptor@236f9b1a]
+34794 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.interceptor.OutgoingChainInterceptor  - Interceptors contributed by service: []
+34794 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.interceptor.OutgoingChainInterceptor  - Interceptors contributed by endpoint: [org.apache.cxf.interceptor.MessageSenderInterceptor@6404f9be, org.apache.cxf.jaxws.interceptors.SwAOutInterceptor@7a4749fc, org.apache.cxf.jaxws.interceptors.WrapperClassOutInterceptor@35738e37, org.apache.cxf.jaxws.interceptors.HolderOutInterceptor@6a1b64c8]
+34794 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.interceptor.OutgoingChainInterceptor  - Interceptors contributed by binding: [org.apache.cxf.interceptor.AttachmentOutInterceptor@2911a93c, org.apache.cxf.interceptor.StaxOutInterceptor@69d91d4b, org.apache.cxf.binding.soap.interceptor.SoapHeaderOutFilterInterceptor@40f22471, org.apache.cxf.wsdl.interceptors.WrappedOutInterceptor@717e3583, org.apache.cxf.wsdl.interceptors.BareOutInterceptor@55023ad9, org.apache.cxf.binding.soap.interceptor.SoapPreProtocolOutInterceptor@74905677, org.apache.cxf.binding.soap.interceptor.SoapOutInterceptor@25902538]
+34795 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.interceptor.OutgoingChainInterceptor  - Interceptors contributed by databinding: []
+34795 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Adding interceptor org.apache.cxf.ws.policy.PolicyOutInterceptor@236f9b1a to phase setup
+34795 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Adding interceptor org.apache.cxf.interceptor.MessageSenderInterceptor@6404f9be to phase prepare-send
+34802 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Adding interceptor org.apache.cxf.jaxws.interceptors.SwAOutInterceptor@7a4749fc to phase pre-logical
+34802 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Adding interceptor org.apache.cxf.jaxws.interceptors.WrapperClassOutInterceptor@35738e37 to phase pre-logical
+34802 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Adding interceptor org.apache.cxf.jaxws.interceptors.HolderOutInterceptor@6a1b64c8 to phase pre-logical
+34802 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Adding interceptor org.apache.cxf.interceptor.AttachmentOutInterceptor@2911a93c to phase pre-stream
+34803 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Adding interceptor org.apache.cxf.interceptor.StaxOutInterceptor@69d91d4b to phase pre-stream
+34803 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Adding interceptor org.apache.cxf.binding.soap.interceptor.SoapHeaderOutFilterInterceptor@40f22471 to phase pre-logical
+34803 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Adding interceptor org.apache.cxf.wsdl.interceptors.WrappedOutInterceptor@717e3583 to phase marshal
+34803 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Adding interceptor org.apache.cxf.wsdl.interceptors.BareOutInterceptor@55023ad9 to phase marshal
+34803 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Adding interceptor org.apache.cxf.binding.soap.interceptor.SoapPreProtocolOutInterceptor@74905677 to phase post-logical
+34803 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Adding interceptor org.apache.cxf.binding.soap.interceptor.SoapOutInterceptor@25902538 to phase write
+34803 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Chain org.apache.cxf.phase.PhaseInterceptorChain@2542ce24 was created. Current flow:
+  setup [PolicyOutInterceptor]
+  pre-logical [HolderOutInterceptor, SwAOutInterceptor, WrapperClassOutInterceptor, SoapHeaderOutFilterInterceptor]
+  post-logical [SoapPreProtocolOutInterceptor]
+  prepare-send [MessageSenderInterceptor]
+  pre-stream [AttachmentOutInterceptor, StaxOutInterceptor]
+  write [SoapOutInterceptor]
+  marshal [WrappedOutInterceptor, BareOutInterceptor]
+
+34803 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Invoking handleMessage on interceptor org.apache.cxf.ws.policy.PolicyOutInterceptor@236f9b1a
+34804 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Invoking handleMessage on interceptor org.apache.cxf.jaxws.interceptors.HolderOutInterceptor@6a1b64c8
+34804 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.jaxws.interceptors.HolderOutInterceptor  - op: [OperationInfo: {http://crossfit.com/youtube/}ChangeVideo]
+34804 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.jaxws.interceptors.HolderOutInterceptor  - op.hasOutput(): true
+34804 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.jaxws.interceptors.HolderOutInterceptor  - op.getOutput().size(): 1
+34805 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Invoking handleMessage on interceptor org.apache.cxf.jaxws.interceptors.SwAOutInterceptor@7a4749fc
+34807 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Invoking handleMessage on interceptor org.apache.cxf.jaxws.interceptors.WrapperClassOutInterceptor@35738e37
+34822 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Invoking handleMessage on interceptor org.apache.cxf.binding.soap.interceptor.SoapHeaderOutFilterInterceptor@40f22471
+34822 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Invoking handleMessage on interceptor org.apache.cxf.binding.soap.interceptor.SoapPreProtocolOutInterceptor@74905677
+34822 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Invoking handleMessage on interceptor org.apache.cxf.interceptor.MessageSenderInterceptor@6404f9be
+34823 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Adding interceptor org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor@4556faf8 to phase prepare-send-ending
+34823 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Chain org.apache.cxf.phase.PhaseInterceptorChain@2542ce24 was modified. Current flow:
+  setup [PolicyOutInterceptor]
+  pre-logical [HolderOutInterceptor, SwAOutInterceptor, WrapperClassOutInterceptor, SoapHeaderOutFilterInterceptor]
+  post-logical [SoapPreProtocolOutInterceptor]
+  prepare-send [MessageSenderInterceptor]
+  pre-stream [AttachmentOutInterceptor, StaxOutInterceptor]
+  write [SoapOutInterceptor]
+  marshal [WrappedOutInterceptor, BareOutInterceptor]
+  prepare-send-ending [MessageSenderEndingInterceptor]
+
+34823 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Invoking handleMessage on interceptor org.apache.cxf.interceptor.AttachmentOutInterceptor@2911a93c
+34823 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Invoking handleMessage on interceptor org.apache.cxf.interceptor.StaxOutInterceptor@69d91d4b
+34843 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Adding interceptor org.apache.cxf.interceptor.StaxOutEndingInterceptor@40d20d3e to phase pre-stream-ending
+34843 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Chain org.apache.cxf.phase.PhaseInterceptorChain@2542ce24 was modified. Current flow:
+  setup [PolicyOutInterceptor]
+  pre-logical [HolderOutInterceptor, SwAOutInterceptor, WrapperClassOutInterceptor, SoapHeaderOutFilterInterceptor]
+  post-logical [SoapPreProtocolOutInterceptor]
+  prepare-send [MessageSenderInterceptor]
+  pre-stream [AttachmentOutInterceptor, StaxOutInterceptor]
+  write [SoapOutInterceptor]
+  marshal [WrappedOutInterceptor, BareOutInterceptor]
+  pre-stream-ending [StaxOutEndingInterceptor]
+  prepare-send-ending [MessageSenderEndingInterceptor]
+
+34843 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Invoking handleMessage on interceptor org.apache.cxf.binding.soap.interceptor.SoapOutInterceptor@25902538
+34846 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Adding interceptor org.apache.cxf.binding.soap.interceptor.SoapOutInterceptor$SoapOutEndingInterceptor@4b53772b to phase write-ending
+34848 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Chain org.apache.cxf.phase.PhaseInterceptorChain@2542ce24 was modified. Current flow:
+  setup [PolicyOutInterceptor]
+  pre-logical [HolderOutInterceptor, SwAOutInterceptor, WrapperClassOutInterceptor, SoapHeaderOutFilterInterceptor]
+  post-logical [SoapPreProtocolOutInterceptor]
+  prepare-send [MessageSenderInterceptor]
+  pre-stream [AttachmentOutInterceptor, StaxOutInterceptor]
+  write [SoapOutInterceptor]
+  marshal [WrappedOutInterceptor, BareOutInterceptor]
+  write-ending [SoapOutEndingInterceptor]
+  pre-stream-ending [StaxOutEndingInterceptor]
+  prepare-send-ending [MessageSenderEndingInterceptor]
+
+34848 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Invoking handleMessage on interceptor org.apache.cxf.wsdl.interceptors.WrappedOutInterceptor@717e3583
+34848 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Invoking handleMessage on interceptor org.apache.cxf.wsdl.interceptors.BareOutInterceptor@55023ad9
+34880 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Invoking handleMessage on interceptor org.apache.cxf.binding.soap.interceptor.SoapOutInterceptor$SoapOutEndingInterceptor@4b53772b
+34880 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Invoking handleMessage on interceptor org.apache.cxf.interceptor.StaxOutEndingInterceptor@40d20d3e
+34880 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.phase.PhaseInterceptorChain  - Invoking handleMessage on interceptor org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor@4556faf8
+34883 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.apache.cxf.transport.http.AbstractHTTPDestination  - Finished servicing http request on thread: Thread[qtp1896232624-16 - /ss/youtubeSOAP,5,main]
+34883 [qtp1896232624-16 - /ss/youtubeSOAP] DEBUG org.eclipse.jetty.server.Server  - RESPONSE /ss/youtubeSOAP  200 handled=true
+34884 [qtp1896232624-16] DEBUG org.eclipse.jetty.server.AsyncHttpConnection  - Enabled read interest SCEP@4d6cabcd{l(/127.0.0.1:56084)<->r(/127.0.0.1:8080),s=1,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=0r}-{AsyncHttpConnection@4282d8ab,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=3,c=239},r=1}
+34887 [qtp1896232624-16] DEBUG org.eclipse.jetty.http.HttpParser  - filled 0/0
+37657 [qtp1896232624-16] DEBUG org.eclipse.jetty.io.nio.ChannelEndPoint  - Exception while filling
+java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.eclipse.jetty.io.nio.ChannelEndPoint.fill(ChannelEndPoint.java:235)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.fill(SelectChannelEndPoint.java:365)
+	at org.eclipse.jetty.http.HttpParser.fill(HttpParser.java:1044)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:280)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:667)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+37660 [qtp1896232624-16] DEBUG org.eclipse.jetty.http.HttpParser  - filled -1/0
+37661 [qtp1896232624-16] DEBUG org.eclipse.jetty.server.AsyncHttpConnection  - Disabled read interest while writing response SCEP@4d6cabcd{l(/127.0.0.1:56084)<->r(0.0.0.0/0.0.0.0:8080),s=1,open=false,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@4282d8ab,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=-3},r=1}
+37662 [qtp1896232624-14 Selector0] DEBUG org.eclipse.jetty.io.nio  - destroyEndPoint SCEP@4d6cabcd{l(null)<->r(0.0.0.0/0.0.0.0:8080),s=0,open=false,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@4282d8ab,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=-3},r=1}
+37663 [qtp1896232624-14 Selector0] DEBUG org.eclipse.jetty.server.AbstractHttpConnection  - closed AsyncHttpConnection@4282d8ab,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=-3},r=1
