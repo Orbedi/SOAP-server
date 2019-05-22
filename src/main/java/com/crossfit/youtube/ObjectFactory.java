@@ -1,7 +1,10 @@
 
 package com.crossfit.youtube;
 
+import javax.xml.bind.JAXBElement;
+import javax.xml.bind.annotation.XmlElementDecl;
 import javax.xml.bind.annotation.XmlRegistry;
+import javax.xml.namespace.QName;
 
 
 /**
@@ -21,6 +24,7 @@ import javax.xml.bind.annotation.XmlRegistry;
 @XmlRegistry
 public class ObjectFactory {
 
+    private final static QName _InvalidURL_QNAME = new QName("http://crossfit.com/youtube/", "invalidURL");
 
     /**
      * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: com.crossfit.youtube
@@ -43,6 +47,15 @@ public class ObjectFactory {
      */
     public ChangeVideoResponse createChangeVideoResponse() {
         return new ChangeVideoResponse();
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://crossfit.com/youtube/", name = "invalidURL")
+    public JAXBElement<String> createInvalidURL(String value) {
+        return new JAXBElement<String>(_InvalidURL_QNAME, String.class, null, value);
     }
 
 }
